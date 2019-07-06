@@ -1,0 +1,712 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Coiny One:400,500,700&display=swap');
+
+
+/* HIDES UNWANTED TEXT FOR TEMPERATURE */
+div.dark-sky-link {
+    display: none;
+}
+main {
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-bottom: 150px;
+    width: 85%;
+    height: 2040px;
+    background-color: black;
+}
+header#head1 {
+    width: 100%;
+    height: 150px;
+    color: white;
+    background-color: black;
+}
+.logo {
+    width: 20%;
+    float: left;
+    margin-left: 10%;
+    font-family: Comfortaa;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+/* FONT AWESONE MEDIA ICONS */
+header#head1 ul#media-icons {
+    list-style-type: none;
+    width: 500px;
+    float: right;
+}
+header#head1 ul#media-icons li {
+    float: left;
+    font-family: Roboto;
+    font-size: 16px;
+    border-right: 1px solid white;
+    padding: 0 10px 0 10px;
+}
+
+header#head1 ul#media-icons li > a:hover {
+    color: #ffffff;
+}
+
+header#head1 ul#media-icons li:nth-of-type(5) {
+    border-right: unset;
+}
+header#head1 ul#media-icons li:nth-of-type(6) {
+    border-right: unset;
+    font-size: 20px;
+}
+
+header#head1 .underLogo {
+    width: 130px;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    font-family: Comfortaa;
+    color: white;
+}
+header#head2 {
+    width: 100%;
+    height: 105px;
+    background-color: white;
+}
+.berlin {
+    float: left;
+    margin-left: 10%;
+    padding-top: 1%;
+    font-family: Roboto;
+}
+.berlin span {
+    font-style: Source Sans Pro;
+    color: grey;
+}
+
+header#head2 aside {
+    width: 200px;
+    float: right;
+    margin-right: 5%;
+}
+
+header#head2 aside > p {
+    position: relative;
+    color: #0000005d;
+    font-size: 20px;
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 0;
+    top: -4px;
+}
+
+/* FONT AWESONE MEDIA ICONS */
+header#head2 ul#media-reviews {
+    list-style-type: none;
+    height: 20px;
+    float: right;
+    padding: 0;
+    margin-bottom: 0;
+}
+header#head2 ul#media-reviews li {
+    float: left;
+    margin-left: 5px;
+    font-family: Roboto;
+}
+
+
+header#head2 ul#media-reviews li:nth-of-type(1) i {
+    color: red;
+    font-size: 20px;
+}
+header#head2 ul#media-reviews li:nth-of-type(2) i {
+    color: red;
+    font-size: 20px;
+}
+header#head2 ul#media-reviews li:nth-of-type(3) i {
+    color: red;
+    font-size: 20px;
+}
+header#head2 ul#media-reviews li:nth-of-type(4) i {
+    color: red;
+    font-size: 20px;
+}
+header#head2 ul#media-reviews li:nth-of-type(5) i {
+    color: red;
+    font-size: 20px;
+    margin-left: 2%;
+}
+header#head2 aside > a {
+    float: right;
+    clear: right;
+    color: red;
+    font-size: 20px;
+}
+p#decimal {
+    float: left;
+}
+a#see {
+    color: red;
+    font-family: Roboto;
+}
+nav#my-nav {
+    height: 25px;
+    padding-top: 5px;
+	color: #c0c0c009;
+    background: rgba(245, 245, 245, 0.904);
+}
+
+nav#my-nav div {
+	display: inline;
+	text-align: center;
+    font-family: Roboto; 
+}
+
+nav#my-nav div:nth-of-type(1) {
+    margin-left: 7%;
+}
+
+nav#my-nav div:nth-of-type(2) {
+	margin-left: 3%;
+}
+
+nav#my-nav div:nth-of-type(3) {
+	margin-left: 3%;
+}
+
+nav#my-nav div:nth-of-type(4) {
+	margin-left: 3%;
+}
+
+nav#my-nav div:nth-of-type(5) {
+	margin-left: 3%;
+}
+
+nav#my-nav div:nth-of-type(6) {
+	margin-left: 3%;
+}
+nav#my-nav div:nth-of-type(7) {
+    margin-left: 3%;
+}
+nav#my-nav div:nth-of-type(8) {
+    margin-left: 3%;
+}
+nav#my-nav div:nth-of-type(9) {
+    margin-left: 3%;
+}
+a {
+	color: grey;
+    text-decoration: none;
+  }
+  div#hero {
+      width: 100%;
+      height: 560px;
+      background-image: url(pool.jpg);
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  background-clip: content-box;
+	  background-position: center;
+  }
+  div#inOut {
+      width: 300px;
+      float: right;
+      margin-top: 45px;
+      margin-right: 70px;
+      background-color: whitesmoke;
+      opacity: 6%;
+  }
+  div#avail {
+    float: left;
+    width: 100%;
+    height: 75px;
+    margin-right: 70px;
+    background-color: rgba(66, 60, 60, 0.767);
+    opacity: 6%;
+  }
+  .subAvail1 {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 0;
+    font-family: Roboto;
+    color: #FFFFFF;
+  }
+  p.subAvail2 {
+    margin-left: 10%;
+    margin-top: 0;
+    font-family: Roboto;
+    color: #FFFFFF;
+  }
+  .subAvail2 span{
+    color: red;
+    font-size: 20px;
+  }
+  form#quote-form {
+    clear: both;
+    text-align: center;
+    padding: 0 5% 0 5%;
+  }
+
+  form#quote-form span:nth-of-type(1) {
+    float: left;
+    top: 20px;
+    position: relative
+
+  }
+
+  form#quote-form input:nth-of-type(1) {
+      width: 40%;
+      height: 40px;
+      margin-top: 35px;
+      float: left;
+      clear: left;
+      font-family: Roboto;
+      
+  }
+
+  form#quote-form span:nth-of-type(2) {
+    position: relative;
+    top: 20px;
+    left: 30px
+  }
+  form#quote-form input:nth-of-type(2) {
+    width: 40%;
+    height: 40px;
+    margin-top: 35px;
+    float: right;
+    clear: right;
+    font-family: Roboto;
+  }
+  form#quote-form span {
+      font-family: Roboto;
+  }
+
+p.roomAdult {
+    float: left;
+    clear: left;
+    font-family: Roboto;
+}
+
+input.findRates {
+    padding: 12px 8px 12px 8px;
+    width: 100%;
+    font-family: Roboto;
+    background-color: rgb(255, 0, 170);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+div#find {
+    width: 85%;
+    height: 45px;
+    margin-left: 8%;
+    margin-top: 18px;
+    background-color: rgb(255, 0, 170);
+}
+
+  div#checkWhy {
+      padding-top: 20px;
+      margin-left: 10%;
+      list-style-type: none;
+      font-family: Roboto;
+  }
+  p#why {
+      float: right;
+      margin-top: 0px;
+      margin-right: 35%;
+  }
+  div#excellent {
+      width: 100%;
+      height: 80px;
+      color: white;
+      background-color: rgba(66, 60, 60, 0.466);
+  }
+  div#exc1 {
+      float: left;
+      width: 69.8%;
+      height: 70px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      color: white;
+      background-color: rgba(66, 60, 60, 0.466);
+      border-right: 1px solid white;
+  }
+  div#exc2 {
+      float: left;
+      padding-top: 15px;
+      width: 15%;
+      height: 55px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      color: rgb(255, 0, 170);
+      background-color: rgba(66, 60, 60, 0.466);
+      text-align: center;
+      font-family: Roboto;
+      border-right: 1px solid white;
+  }
+  .fa-camera {
+      font-size: 30px !important;
+  }
+  p#photos {
+      margin-top: 7px;
+  }
+  div#exc3 {
+      float: left;
+      width: 15%;
+      height: 80px;
+      color: white;
+      background-color: rgba(66, 60, 60, 0.466);
+      text-align: center;
+      font-family: Roboto;
+}
+  p#author {
+      font-family: Roboto;
+      float: left;
+      margin-left: 200px;
+      margin-top: 25px;
+  }
+  section#essential {
+      height:500px;
+      padding-left: 8%;
+      padding-right: 8%;
+      background-color: rgba(238, 232, 232, 0.856);
+  }
+
+  section#essential figure:nth-of-type(1) {
+      float: left;
+      width: 65%;
+      height: 185px;
+      margin: 0;
+      margin-right: 5%;
+      margin-top: 40px;
+      background-color: whitesmoke;
+
+  }
+
+  section#essential figure:nth-of-type(1) div:nth-of-type(1) {
+    width: 63%;
+    float: left;
+
+  }
+
+section#essential figure:nth-of-type(1) div:nth-of-type(2) {
+    width: 35%;
+    float: right;
+    margin-top: 20px;
+    border-left: 2px solid darkgrey;
+      
+}
+
+section#essential figure:nth-of-type(1) div:nth-of-type(2) ul {
+    list-style-type: none;
+
+}
+
+section#essential figure:nth-of-type(1) div:nth-of-type(2) ul li:nth-of-type(1){ 
+
+    font-size: 16px;
+    
+}
+
+section#essential figure:nth-of-type(1) div:nth-of-type(2) ul li:nth-of-type(2){ 
+    
+    font-size: 16px;
+    
+}
+
+section#essential figure:nth-of-type(1) div:nth-of-type(2) ul li:nth-of-type(3){ 
+
+    font-size: 16px;
+    
+}
+
+/* section#essential figure:nth-of-type(1) div:nth-of-type(2) ul li:nth-of-type(4){ 
+
+    font-size: 16px;
+    
+} */
+.cat6 {
+    font-family: Roboto;
+    margin-left: -25px;
+    margin-top: 3px;
+}
+.fa-heart {
+    color: red;
+    width: 220px;
+    height: 20px;
+    margin-left: 17px;
+    margin-top: 29px;
+    font-size: 18px !important;
+}
+/* p#add {
+    color: red;
+    font-family: Roboto;
+} */
+section#essential figure:nth-of-type(2) {
+      float: left;
+      width: 30%;
+      height: 185px;
+      margin: 0;
+      margin-top: 40px;
+      background-color: whitesmoke;
+      text-align: center;
+  }
+section#essential figure:nth-of-type(3) {
+    float: left;
+    width: 30%;
+    height: 185px;
+    margin-right: 5%;
+    margin-left: 0;
+    margin-top: 45px;
+    background-color: whitesmoke;
+    text-align: center;
+  }
+  section#essential figure:nth-of-type(4) {
+    float: left;
+    width: 30%;
+    height: 185px;
+    margin-right: 5%;
+    margin-left: 0;
+    margin-top: 45px;
+    background-color: whitesmoke;
+    text-align: center;
+  }
+
+  section#essential figure:nth-of-type(5) {
+    float: right;
+    width: 30%;
+    height: 185px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 45px;
+    background-color: whitesmoke;
+    text-align: center;
+  }
+  h2#ess {
+      margin-top: 2%;
+      margin-left: 3%;
+      font-family: Roboto;
+  }
+  .branden {
+    margin-left: 3%;
+    font-family: Roboto;
+  }
+  .essentialText {
+      color: black;
+      font-family: Roboto;
+      margin-bottom: 3px;
+  }
+  .dirAnn {
+      font-family: Roboto;
+  }
+  .dirAnn1 {
+    margin-left: 8px;
+    font-family: Roboto;
+}
+  .details {
+      font-family: Roboto;
+  }
+  .rooms {
+      color: black;
+      font-family: Roboto;
+      margin-top: 6px;
+  }
+  .fa-map-marker {
+     float: left;
+     width: 28%;
+     margin-left: 4%;
+     margin-top: 30px;
+     font-size: 18px !important;
+ }
+  .fa-info-circle {
+     float: left;
+     width: 28%;
+     margin-left: 50px;
+     margin-top: 30px;
+     font-size: 18px !important;
+  }
+ .fa-tags {
+      padding-top: 30px;
+      font-size: 18px !important;
+  }
+  .fa-car {
+      padding-top: 30px;
+      font-size: 18px !important;
+  }
+  .km {
+      margin-top: 7px;
+      font-family: Roboto;
+  }
+  .fa-bed {
+      margin-top: 4px;
+      padding-top: 10px;
+      font-size: 18px !important;
+  }
+  .fa-building-o {
+      margin-top: 9px;
+      padding-top: 30px;
+      font-size: 20px !important;
+  }
+
+  .why {
+    padding-top: 35px;
+    font-family: Roboto;
+}
+  div#whyBook {
+    width: 100%;
+    height: 140px;
+    color: white;
+    background-color: rgba(66, 60, 60, 0.767);
+    text-align: center;
+    font-family: Roboto;
+  }
+  div#whyBook div:nth-of-type(1) {
+    padding-top: 10px;
+    width: 100%;
+    height: 60px;
+    color: white;
+    background-color: rgba(66, 60, 60, 0.767);
+    text-align: center;
+    font-family: Roboto;
+  }
+  div#whyBook div:nth-of-type(2) {
+    padding-top: 20px;
+    float: left;
+    width: 33%;
+    height: 50px;
+    color: white;
+    background-color: rgba(66, 60, 60, 0.767);
+    text-align: center;
+    font-family: Roboto;
+  }
+  div#whyBook div:nth-of-type(3) {
+    padding-top: 20px;
+    float: left;
+    width: 34%;
+    height: 50px;
+    color: white;
+    background-color: rgba(66, 60, 60, 0.767);
+    text-align: center;
+    font-family: Roboto;
+  }
+  div#whyBook div:nth-of-type(4) {
+    padding-top: 20px;
+    float: left;
+    width: 33%;
+    height: 50px;
+    color: white;
+    background-color: rgba(66, 60, 60, 0.767);
+    text-align: center;
+    font-family: Roboto;
+  }
+  section#roomRates {
+    padding-top: 9px;
+    width: 100%;
+    height: 500px;
+    background-color: rgba(66, 60, 60, 0.466);
+  }
+  
+  .rR {
+    width: 200px;
+    color: white;
+    margin-left: 80px;
+    margin-bottom: 0px;
+    font-family: Roboto;
+    float: left;
+}
+
+.seeAll {
+    display: block;
+    float: right;
+    text-align: center;
+    padding: 15px 10px 15px 10px;
+    margin-top: 14px;
+    margin-right: 80px;
+    width: 200px;
+    background-color: rgb(255, 0, 170);
+    color: #000000;
+    font-family: Roboto;
+}
+
+  div#roomRateBlocks {
+      margin: auto;
+      width: 95%;
+      height: 550px;
+      clear: both;
+  }
+  
+  div#roomRateBlocks div:nth-of-type(1) {
+    float: left;
+    width: 28%;
+    height: 200px;
+    margin-right: 4%;
+    margin-left: 4%;
+    margin-top: 35px;
+    background-image: url(room.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-clip: content-box;
+	background-position: center;
+
+}
+div#roomRateBlocks div:nth-of-type(2) {
+    float: left;
+    width: 28%;
+    height: 200px;
+    margin-right: 4%;
+    margin-top: 35px;
+    background-image: url(room.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-clip: content-box;
+	background-position: center;
+
+}
+div#roomRateBlocks div:nth-of-type(3) {
+    float: left;
+    width: 28%;
+    height: 200px;
+    margin-right: 4%;
+    margin-top: 35px;
+    background-image: url(room.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-clip: content-box;
+	background-position: center;
+
+}
+div#roomRateBlocks div:nth-of-type(4) {
+    float: left;
+    width: 28%;
+    height: 115px;
+    margin-right: 4%;
+    margin-left: 4%;
+    background-color: whitesmoke;
+
+}
+div#roomRateBlocks div:nth-of-type(5) {
+    float: left;
+    width: 28%;
+    height: 115px;
+    margin-right: 4%;
+    background-color: whitesmoke;
+
+}
+div#roomRateBlocks div:nth-of-type(6) {
+    float: left;
+    width: 28%;
+    height: 115px;
+    margin-right: 4%;
+    background-color: whitesmoke;
+
+}
+
+.room3 {
+    margin-left: 30px;
+    font-family: Roboto;
+}
+.from {
+    margin-left: 30px;
+    font-family: Roboto;
+    color: rgba(71, 69, 69, 0.644);
+}
+.from span{
+    color: red;
+    font-size: 20px;
+}
